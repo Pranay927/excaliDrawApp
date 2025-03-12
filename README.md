@@ -44,7 +44,7 @@ Relationships:
     Room ↔ Chat: A room contains multiple messages.
 
 # npx prisma migrate dev --name init_schema (after replacing url from neon db for postgres)
-# npx prisma generate
+# npx prisma generatee
 # Import db packages in http layer
 
 

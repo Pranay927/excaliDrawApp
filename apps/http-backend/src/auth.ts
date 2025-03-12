@@ -12,7 +12,7 @@ export const auth = (req: Request, res: Response, next: NextFunction) => {
     const decoded = jwt.verify(authorization, JWT_SECRET);
 
     // @ts-ignore 
-    req.userId=(decoded as JwtPayload).userId ; 
+    req.id=(decoded as JwtPayload).id ; 
     next();
 
 

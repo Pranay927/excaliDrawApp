@@ -10,6 +10,7 @@
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.9",
     "jsonwebtoken": "^9.0.2",
+    "@repo/db":"workspace:*",
     "ws": "^8.18.1"
   },
   "devDependencies": {
